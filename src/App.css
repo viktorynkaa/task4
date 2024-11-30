@@ -1,0 +1,85 @@
+.cve-item {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(#f29c9c, #e9b7b7);
+}
+
+.welcome-message{
+    text-align: center;
+    color: #fff;
+}
+
+.select_cve_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* custom CVE search header styles */
+
+.input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff8b8b;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffe5e5;
+    color: #333;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input[type="text"]:focus {
+    border-color: #f29c9c;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f29c9c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #f29c9c;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+}
+
+.button:active {
+    background-color: #f29c9c;
+}
+
+/* navigation styles */
+.navbar {
+    display: flex;
+    justify-content: space-around   ;
+    background-color: #f29c9c;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #000;
+}
